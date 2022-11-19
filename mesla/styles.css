@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+a {
+    color:black;
+}
+p,ul,li{
+    display:inline;
+    vertical-align:middle;
+   
+}
+
+.cars{
+
+    position: relative;
+    left:450px;
+}
+
+.users{
+    position: relative;
+    left:800px;
+    
+}
+nav > p{
+    line-height:80px;
+    margin-left:40px;
+    text-transform:uppercase;
+    font-weight: 900;
+    font-size:30px;
+    letter-spacing:20px;
+    
+}
+
+li{
+     margin-left:30px;
+     
+    
+}
+nav{
+    position: fixed;
+}
+.hero-text{
+    position:absolute;
+    left:800px;
+    top:240px;
+    position:fixed;
+}
+
+.hero-text > h1{
+    margin-left:70px;
+    margin-bottom: 20px;
+}
+
+.model-3 {
+  background: url(images/m3.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.model-y {
+  background: url(images/model-y.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.model-s {
+  background: url(images/model-s.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.model-x {
+  background: url(images/model-x.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.solar-panel {
+  background: url(images/solar-panel.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.solar-roof {
+  background: url(images/solar-roof.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.accessories {
+  background: url(images/accessories.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttons{
+    position:relative;
+    top: 820px;
+    left:700px;
+    position:fixed;
+}
+.white{
+    background-color:rgba(244, 244, 244, 0.65);
+    border: none;
+    padding: 15px 32px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.black{
+    
+    background-color:rgba(23, 26, 32, 0.8);
+    color:white;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 4px;
+}
+
