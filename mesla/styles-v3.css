@@ -1,0 +1,135 @@
+/* Utilize grid*/
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+ 
+}
+
+.model-3{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows:50% 50%;
+}
+nav{
+  display: grid;
+  justify-content: space-between;
+  grid-template-rows:33.33% 33.33% 33.33% ;
+  width:700px;
+  margin-left:40px;
+ 
+
+  
+  
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: 10px 0;
+}
+p{
+  margin-top:20px;
+}
+nav > p {
+  text-transform: uppercase;
+  font-size:40px;
+  font-weight: bolder;
+}
+
+.hero-text,.buttons{
+  margin-left:40px;
+
+}
+
+.hero-text{
+  margin-top: 200px;
+}
+.white {
+  background-color: rgba(244, 244, 244, 0.65);
+  border: none;
+  padding: 15px 32px;   
+  border-radius: 4px;
+  margin-top: 20px;;
+}
+.black {
+  background-color: rgba(23, 26, 32, 0.65);
+  color:white;
+  padding: 15px 32px;
+  border-radius: 4px;
+  
+  
+}
+
+
+
+.model-3 {
+  background: url(images/m3.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.model-y {
+  background: url(images/model-y.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.model-s {
+  background: url(images/model-s.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.model-x {
+  background: url(images/model-x.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.solar-panel {
+  background: url(images/solar-panel.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.solar-roof {
+  background: url(images/solar-roof.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accessories {
+  background: url(images/accessories.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
