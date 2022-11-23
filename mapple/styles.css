@@ -9,8 +9,7 @@ ul{
     display:flex;
     gap:20px;
     color:white;
-    
-    
+  
     
     margin: 20px 10px;
 }
@@ -19,7 +18,7 @@ li{
     list-style: none;
 }
 
-section{
+.nav{
     height:10vh;
     width:100%;
     background-color: black;
@@ -27,4 +26,12 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position:fixed;
+    
+}
+
+.body{
+    height: 2200px;
+    width: 100%;
+    border: 1px solid black;
 }
