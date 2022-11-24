@@ -9,6 +9,7 @@ ul{
     display:flex;
     gap:20px;
     color:white;
+    align-items: center;
   
     
     margin: 20px 10px;
@@ -27,6 +28,7 @@ li{
     align-items: center;
     justify-content: space-around;
     position:fixed;
+    text-align: center;
     
 }
 
@@ -34,4 +36,12 @@ li{
     height: 2200px;
     width: 100%;
     border: 1px solid black;
+}
+
+.shopping,.search,.logo{
+    width: 3%;
+  
+}
+.logo{
+    margin-bottom:7px;
 }
