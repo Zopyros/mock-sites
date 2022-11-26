@@ -1,78 +1,101 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    --text-color:white;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --text-color: white;
+  --bg-color: black;
 }
 
-ul{
+ul {
+  display: flex;
+  gap: 20px;
+  color: var(--text-color);
+  align-items: center;
 
-    display:flex;
-    gap:20px;
-    color:var(--text-color);
-    align-items: center;
-  
-    
-    margin: 20px 10px;
+  margin: 20px 10px;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-.nav{
-    height:10vh;
-    width:100%;
-    background-color: black;
-    border-bottom: 2px solid gray;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position:sticky;
-    text-align: center;
-   
-    
-    
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  text-align: center;
 }
 
-.body{
-    height: 2200px;
+.body {
+  height: 2200px;
+  width: 100%;
+  border: 1px solid var(--bg-color);
+}
+
+.shopping,
+.search,
+.logo {
+  width: 3%;
+}
+.logo {
+  margin-bottom: 7px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  background: url("images/hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+}
+
+.content-1 {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  margin-top: 50px;
+  line-height: 2rem;
+  color: var(--text-color);
+}
+
+.top {
+  background-color: var(--bg-color);
+}
+
+.content-2 {
+  margin: auto;
+}
+
+.iphone-14-img {
+  background: url(images/iphone-14.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+}
+.content-3{
+    
+    background-color: var(--bg-color);
     width: 100%;
-    border: 1px solid black;
+    color:var(--text-color);
+    text-align: center;
 }
 
-.shopping,.search,.logo{
-    width: 3%;
+.iphone-14-pro-img{
+    background: url(images/iphone-14-pro.jpg);
+    background-size: contain;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
   
 }
-.logo{
-    margin-bottom:7px;
-}
 
-
-header{display:flex;
-flex-direction: column;
-
-
-}
-
-
-.hero-img{
-    
-    background:url('images/hero.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:40vh;
-    width:100%;
-}
-
-.content-1{
-
-    margin:auto;
-    text-align: center;
-    width:30%;
-    margin-top:50px;    
-    line-height:2rem;
-
-}
