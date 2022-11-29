@@ -4,6 +4,7 @@
   box-sizing: border-box;
   --text-color: white;
   --bg-color: black;
+  --highlight-color:#7e499d;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -167,9 +168,18 @@ h3{
     font-size: 20px;
 }
 
-a{
+.shop-now{
   text-decoration: none;
   color:var(--text-color);
   border: 1px solid var(--text-color);
   padding:5px;
+}
+
+h3{
+  text-align: center;
+  margin-bottom:5%;
+}
+
+ li:hover, h3:hover {
+  color:var(--highlight-color);
 }
