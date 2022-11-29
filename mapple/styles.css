@@ -206,4 +206,9 @@ h3{
   .nav li:nth-child(8){
     display:none;
   }
+
+  .content-1 h3 {
+    line-height: 2.5rem;
+    margin-top:3% ;
+  }
  }
