@@ -30,6 +30,7 @@ li {
   justify-content: space-around;
   position: sticky;
   text-align: center;
+
 }
 
 .body {
@@ -150,6 +151,8 @@ header {
    
  }
 
+ 
+
  .iphone-14-img{
     background-size: cover;
     height: 50vh;
@@ -175,6 +178,11 @@ h3{
   padding:5px;
 }
 
+.shop-now:hover{
+  opacity:.7;
+  
+}
+
 h3{
   text-align: center;
   margin-bottom:5%;
@@ -183,3 +191,19 @@ h3{
  li:hover, h3:hover {
   color:var(--highlight-color);
 }
+
+
+@media (max-width:877px){
+  .nav li{
+    font-size:smaller;
+  }
+ }
+
+ @media (max-width:877px){
+  .nav li:nth-child(7){
+    display:none;
+  }
+  .nav li:nth-child(8){
+    display:none;
+  }
+ }
