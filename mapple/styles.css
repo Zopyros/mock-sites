@@ -4,8 +4,8 @@
   box-sizing: border-box;
   --text-color: white;
   --bg-color: black;
-  --highlight-color:#7e499d;
-  font-family: 'Roboto', sans-serif;
+  --highlight-color: #7e499d;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -30,7 +30,6 @@ li {
   justify-content: space-around;
   position: sticky;
   text-align: center;
-
 }
 
 .body {
@@ -87,128 +86,126 @@ header {
   height: 40vh;
   width: 100%;
 }
-.content-3{
-    
-    background-color: var(--bg-color);
-    width: 100%;
-    color:var(--text-color);
-    text-align: center;
+.content-3 {
+  background-color: var(--bg-color);
+  width: 100%;
+  color: var(--text-color);
+  text-align: center;
 }
 
-.iphone-14-pro-img{
-    background: url(images/iphone-14-pro.jpg);
-    background-size: contain;
+.iphone-14-pro-img {
+  background: url(images/iphone-14-pro.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   height: 40vh;
   width: 100%;
   background-color: var(--bg-color);
-  
 }
 
-
-.grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows:  200px 200px;
-    gap:20px;
-    margin-top: 20px;
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.one{
-    background: url(images/1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
+.one {
+  background: url(images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.two{
-    background: url(images/2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.two {
+  background: url(images/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.three{
-    background: url(images/3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.three {
+  background: url(images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.four{
-    background: url(images/4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.content-3 > h2{
-    margin-top: 20px;
+.four {
+  background: url(images/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 2156px){
- .hero-img{
+.content-3 > h2 {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 2156px) {
+  .hero-img {
     background-size: cover;
     height: 50vh;
-   
- }
+  }
 
- 
-
- .iphone-14-img{
+  .iphone-14-img {
     background-size: cover;
     height: 50vh;
- }
+  }
 
- .iphone-14-pro-img{
+  .iphone-14-pro-img {
     background-size: cover;
     height: 50vh;
-
- }
-    
+  }
 }
 
-h2{font-size:50px;}
-h3{
-    font-size: 20px;
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 20px;
 }
 
-.shop-now{
+.shop-now {
   text-decoration: none;
-  color:var(--text-color);
+  color: var(--text-color);
   border: 1px solid var(--text-color);
-  padding:5px;
+  padding: 5px;
 }
 
-.shop-now:hover{
-  opacity:.7;
-  
+.shop-now:hover {
+  opacity: 0.7;
 }
 
-h3{
+h3 {
   text-align: center;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
- li:hover, h3:hover {
-  color:var(--highlight-color);
+li:hover,
+h3:hover {
+  color: var(--highlight-color);
 }
 
-
-@media (max-width:877px){
-  .nav li{
-    font-size:smaller;
+@media (max-width: 877px) {
+  .nav li {
+    font-size: smaller;
   }
- }
+}
 
- @media (max-width:877px){
-  .nav li:nth-child(7){
-    display:none;
+@media (max-width: 877px) {
+  .nav li:nth-child(7) {
+    display: none;
   }
-  .nav li:nth-child(8){
-    display:none;
+  .nav li:nth-child(8) {
+    display: none;
   }
 
   .content-1 h3 {
     line-height: 2.5rem;
-    margin-top:3% ;
+    margin-top: 3%;
   }
- }
+}
+
+h2:hover {
+  transform: scale(1.1);
+}
+
+
