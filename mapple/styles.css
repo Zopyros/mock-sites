@@ -209,3 +209,32 @@ h2:hover {
 }
 
 
+
+
+.one:hover{
+
+	filter: blur(3px);
+  transform: scale(.9);
+	transition: .3s ease-in-out;
+}
+
+.two:hover{
+
+	filter: blur(3px);
+  transform: scale(.9);
+	transition: .3s ease-in-out;
+}
+
+.three:hover{
+
+	filter: blur(3px);
+  transform: scale(.9);
+	transition: .3s ease-in-out;
+}
+
+.four:hover{
+
+	filter: blur(3px);
+  transform: scale(.9);
+	transition: .3s ease-in-out;
+}
