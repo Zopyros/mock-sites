@@ -4,3 +4,12 @@
 
 
 }
+
+address {
+    display:flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+    margin:2%;
+    font-size: .95rem;
+
+}
