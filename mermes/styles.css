@@ -13,3 +13,11 @@ address {
     font-size: .95rem;
 
 }
+
+
+
+.navigation{
+    display:flex;
+    justify-content: space-around;
+}
+
