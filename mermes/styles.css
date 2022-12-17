@@ -21,3 +21,12 @@ address {
     justify-content: space-around;
 }
 
+
+
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
