@@ -45,3 +45,14 @@ address {
 .time img{
     width:40vw;
 }
+
+.wonders {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.wonders-title{
+    text-align: center;
+}
