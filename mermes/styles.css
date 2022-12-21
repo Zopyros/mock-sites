@@ -57,7 +57,7 @@ address {
     text-align: center;
 }
 
-.gesture {
+.gesture,.altitude,.jump{
     display: flex;
     flex-direction: column; 
     align-items: center;
