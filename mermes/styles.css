@@ -56,3 +56,16 @@ address {
 .wonders-title{
     text-align: center;
 }
+
+.gesture {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 10% 20%;
+    line-height: 3rem;
+     
+}
+
+a{
+    color:var(--main-color)
+}
