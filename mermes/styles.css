@@ -69,3 +69,8 @@ address {
 a{
     color:var(--main-color)
 }
+
+.wonders a {
+    width:400px;
+    height:400px;
+}
