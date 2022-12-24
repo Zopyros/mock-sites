@@ -56,7 +56,7 @@ address {
     text-align: center;
 }
 
-.gesture,.altitude,.jump,.podcast,.imagination{
+.gesture,.altitude,.jump,.podcast,.imagination,.conversation{
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -72,4 +72,11 @@ a{
 .wonders a {
     width:400px;
     height:400px;
+}
+
+.conversation button{
+    padding:1rem 3rem;
+    background-color: black;
+    color:white;
+    border-radius: 40px;
 }
