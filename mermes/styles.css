@@ -49,7 +49,6 @@ address {
 .wonders {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 
 }
 
@@ -57,7 +56,7 @@ address {
     text-align: center;
 }
 
-.gesture,.altitude,.jump{
+.gesture,.altitude,.jump,.podcast,.imagination{
     display: flex;
     flex-direction: column; 
     align-items: center;
