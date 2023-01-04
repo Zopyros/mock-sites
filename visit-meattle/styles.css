@@ -24,6 +24,7 @@ a{
     color:white;
     text-transform: uppercase;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .book{
     background-color: greenyellow;
@@ -32,3 +33,10 @@ a{
     color: white;
     width:50%;
 }
+
+.second-nav{
+    background-color: #36454F;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    
