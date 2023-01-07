@@ -54,3 +54,16 @@ a{
     width:50%;
     margin:auto;
 }
+
+.planning{
+    display:flex;
+    
+}
+
+.planning img {
+    width:30vw;
+}
+
+.left{
+    max-width: 50%;
+}
