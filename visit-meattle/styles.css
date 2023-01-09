@@ -74,3 +74,12 @@ a{
     margin-top:2rem;
     background-color: white;
 }
+
+.plan-trip{
+    border-top: 2px solid black;
+    margin:auto;
+    width:80%;
+    text-align: center;
+    
+    margin-top:2rem;
+}
