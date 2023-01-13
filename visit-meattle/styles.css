@@ -26,6 +26,7 @@ a{
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    height:3rem;
     
 }
 .book{
@@ -34,6 +35,8 @@ a{
     border:none;
     color: white;
     width:50%;
+    height:3rem;
+    margin:2rem;
 }
 
 .second-nav{
@@ -100,4 +103,8 @@ a{
     gap: 2rem;
     width: 80%;
     margin:auto;
+}
+.top-nav{
+    display: flex;
+    
 }
