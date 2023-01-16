@@ -1,0 +1,10 @@
+.navigation{
+    display:flex;
+    gap:2rem;
+    list-style-type:none;
+    align-items: center;
+    margin:0;
+    
+}
+
+
