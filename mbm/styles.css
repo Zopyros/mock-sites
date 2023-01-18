@@ -4,6 +4,8 @@
     list-style-type:none;
     align-items: center;
     margin:0;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
     
 }
 
