@@ -31,3 +31,10 @@
     from { width: 0 }
     to { width: 100% }
   }
+
+  .hero-button{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: blue;
+    color: white;
+  }
