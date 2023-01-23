@@ -39,7 +39,7 @@
     color: white;
   }
 
-  body{
-    background:black;
-    color:white;
+
+  .information{
+    border-top: 2px solid black;
   }
