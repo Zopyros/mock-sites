@@ -42,4 +42,16 @@
 
   .information{
     border-top: 2px solid black;
+    display: flex;
+    
+  
+  }
+
+  .right{
+    width:40vw;
+    margin:auto;
+
+  }
+  ul{
+    list-style-type: none;
   }
