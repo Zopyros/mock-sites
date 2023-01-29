@@ -59,3 +59,12 @@
   .consulting ul {
     display:flex;
   }
+
+  .new{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .roadmap{
+    display: flex;
+  }
